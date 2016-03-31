@@ -1,0 +1,25 @@
+{
+  "name": "Moto Defy con Motoblur",
+  "additionalFeatures": "Sistema de autodestruccion (BETA)",
+  "android": {
+      "os": "Android 4.3",
+      "ui": "Android"
+  },
+ 
+  "images": [
+      "images/MotoDefy/1.png",
+      "images/MotoDefy/2.png",
+      "images/MotoDefy/3.png"
+  ],
+  "description":"¿Estas listo para todo lo que la vida pone en tu camino?",
+  "storage": {
+      "flash": "37484MB",
+      "ram": "1024MB"
+  },
+  "connectivity": {
+    "gps": false,
+    "wifi": true,
+    "3g": true,
+    "4g": false
+  }
+}

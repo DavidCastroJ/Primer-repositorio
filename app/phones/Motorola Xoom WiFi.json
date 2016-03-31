@@ -1,0 +1,25 @@
+{
+  "name":"moto Xoom con WiFi",
+  "additionalFeatures": "Alarma del fin del mundo (PREALFA) y Guai Fai",
+  "android": {
+      "os": "Android 5.0",
+      "ui": "Android"
+  },
+ 
+  "images": [
+      "images/MotoXoom/1.png",
+      "images/MotoXoom/2.png",
+      "images/MotoXoom/3.png"
+  ],
+  "description":"La proxima, proxima generacion en tablets",
+  "storage": {
+      "flash": "73214MB",
+      "ram": "2048MB"
+  },
+  "connectivity": {
+    "gps": true,
+    "wifi": true,
+    "3g": true,
+    "4g": true
+  }
+}

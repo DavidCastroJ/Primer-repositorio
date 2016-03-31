@@ -1,0 +1,34 @@
+<div>
+			<div>
+				 busqueda: 
+				 <input type="search" ng-model="query">
+
+				 agrupar por: 
+				 <select  ng-model="order">
+
+				 	<option value="age">
+				 		Mas Nuevo
+				 	</option>
+				 	<option value="-age">
+				 		Mas Viejo
+				 	</option>
+				 	<option value="name">
+				 		Nombre
+					</option>
+				 </select>
+
+			</div>
+			
+			<div>
+					<ul>
+						<li ng-repeat="phone in phones | filter:query | orderBy:order" class="phone-listing">
+							<a href="#phones/{{phone.id}}" class="thumb" ng-src="{{phone.imageUrl}}" alt="{{phone.name}}"></a>
+							<a href="#phones/{{phone.id}}"> {{phone.name}} </a>
+							<p> {{phone.snippet}} </p>
+						</li>
+					</ul>
+			</div>
+
+			<!-- <pre>{{phones | filter:query | rderBy:order | json}}</pre> -->
+
+		</div>

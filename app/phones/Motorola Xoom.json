@@ -1,0 +1,25 @@
+{
+  "name": "Motorola Xoom",
+  "additionalFeatures": "Alarma del fin del mundo (PREALFA)",
+  "android": {
+      "os": "Android 5.0",
+      "ui": "Android"
+  },
+ 
+  "images": [
+      "images/MotoXoom/1.png",
+      "images/MotoXoom/2.png",
+      "images/MotoXoom/3.png"
+  ],
+  "description":"La proxima, proxima generacion en tablets",
+  "storage": {
+      "flash": "73214MB",
+      "ram": "2048MB"
+  },
+  "connectivity": {
+    "gps": false,
+    "wifi": false,
+    "3g": false,
+    "4g": true
+  }
+}

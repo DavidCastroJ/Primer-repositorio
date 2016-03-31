@@ -1,0 +1,28 @@
+{
+  "name": "NEXUS S",
+  "additionalFeatures": "Contour Display, Near Field Communications (NFC)",
+  "android": {
+      "os": "Android 2.3",
+      "ui": "Android"
+  },
+ 
+  "images": [
+      "images/Nexus/1.png",
+      "images/Nexus/2.png",
+      "images/Nexus/3.png"
+  ],
+
+  "description": "Lo rapido solo se vuelve mas rapido con Nexus S",
+  
+  "storage": {
+      "flash": "16384MB",
+      "ram": "512MB"
+  },
+  "connectivity": {
+    "gps": true,
+    "wifi": true,
+    "3g": true,
+    "4g": true
+  }
+
+}

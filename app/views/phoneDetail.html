@@ -1,0 +1,55 @@
+<div class="page">
+	
+	<section class="imagenes">
+		<img  ng-src="{{mainImageUrl}}" alt="{{phone.name}}">
+		<ul class="minis">
+			<li ng-repeat="img in phone.images">
+				<img width="100px"ng-src="{{img}}" ng-click="setImage(img)">
+			</li>
+		</ul>
+	</section>
+
+	<section class="header">
+		<section class="titulo">
+			<h1> {{phone.name}} </h1>
+			<p>  {{phone.description}}</p>
+		</section>
+	</section>
+	
+	<ul class="info">
+		<li >
+			<span>
+				Additional Features
+			</span>
+			<dd>
+			 {{phone.additionalFeatures}} 
+			</dd>
+		</li>
+		<li >
+			<span>Connections</span>
+			<ul>
+				<li>
+					<span>
+						Gps: {{phone.connectivity['gps'] | checkmark}}
+					</span>
+				</li>
+				<li>
+					<span>
+						wifi: {{phone.connectivity['wifi'] | checkmark}}
+					</span>
+				</li>
+				<li>
+					<span>
+						3g: {{phone.connectivity['3g'] | checkmark}}
+					</span>
+				</li>
+				<li>
+					<span>
+						4g: {{phone.connectivity['4g'] | checkmark}}
+					</span>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	
+</div>
